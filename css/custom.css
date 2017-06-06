@@ -1,0 +1,126 @@
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+ li.login a {
+    background-color:#ff0000;
+    color: white !important;
+}
+
+li.login a:hover {
+    background-color:#cccccc !important;
+}
+
+li.register a {
+    background-color:#0099e6;
+    color: white !important;
+}
+
+li.register a:hover {
+    background-color:#cccccc !important;
+}
+
+.jumbotron {
+    background: url(../images/waterdrop.jpg) no-repeat 50% 0;
+    padding:0;
+    height:350px;
+    color: white;
+    margin-top:45px;
+}
+
+.jumbotron [class*='col-'] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: 1px soid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+    overflow: auto;
+    height: 350px;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+}
+
+.thumbnails {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right:20px;
+    color: white;
+}
+.thumbnails p {
+    margin: 0 10px 10px 10px;
+}
+
+.bluebox {
+    background-color: #008ae6;
+    }
+
+.bluebox a {
+    background-color: #0099e6;
+    border:  #0099e6;
+    margin-bottom: 20px;
+    }
+
+.bluebox a:hover {
+    background-color: #0088cc;  
+} 
+
+
+.redbox {
+    background-color:  #ff0000;    
+}
+
+.redbox a {
+    margin-bottom: 20px;
+    background-color: #e60000;
+    border: #e60000;  
+}
+
+.redbox a:hover {
+    background-color: #cc0000;
+    
+}
+
+.panel{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.panel > .panel-heading {
+    background-color: #008ae6; 
+    color: white;
+}
+
+.list-group {
+    margin-top:30px;
+    margin-left: -5px;
+    margin-right: 18px;
+}
+
+.gray-list {
+    margin-top:15px;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    background-color:  #ff0000;
+    border: #ff0000;
+}
+
+.gray-list a.list-group-item.active, gray-list a.list-group-item.active:hover, gray-list a.list-group-item.active:focus {
+    background-color: #f2f2f2;
+    border: #8c8c8c;
+    color:#666666;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    background-color: #cccccc;
+    color:white;
+    margin-top: 40px;
+    padding:10px 0 10px 0;
+}
