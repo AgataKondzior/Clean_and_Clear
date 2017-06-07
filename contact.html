@@ -15,6 +15,14 @@
 
         <!-- Bootstrap main javascript -->
         <script src="js/bootstrap.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+             $('#address').popover('hide');   
+                
+            });
+        
+        </script>
     </head>
     <body>
          <nav class="navbar navbar-default navbar-fixed-top">
@@ -68,44 +76,36 @@
                 <div class='col-md-8'>
                     <div class="panel panel-default">
                         <div class="panel-body">
+                            
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.3514473383266!2d21.558165315741043!3d52.18248416893961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f2e81190e69c5%3A0x376ff8e2b2ca951c!2sWarszawska+123%2C+05-303+Mi%C5%84sk+Mazowiecki%2C+Polska!5e0!3m2!1spl!2sus!4v1496869554738" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <button id='address' type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="Address" data-content="ul. Warszawska 123, 05-300 Mińsk Mazowiecki">Get address</button>
                             <h2>Contact us</h2>
+                            <h4>Please use the form below to contact us</h4>
                          <form>
                              <div class="form-group">
-    <label for="exampleInputEmail1">Name</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>   
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Message</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>                    
+                            <button type="submit" class="btn btn-default">Send</button>
+                        </form>   
                         </div>
                     </div>
                 </div>
             <div class='col-md-4'>
                 <div class="list-group">
-                    <a href="index.html" class="list-group-item active panel-red">
-                        Home
-                    </a>
+                    <a href="index.html" class="list-group-item">Home</a>
                     <a href="about.html" class="list-group-item">About</a>
                     <a href="innovate.html" class="list-group-item">Innovate</a>
                     <a href="blog.html" class="list-group-item">Blog</a>
-                    <a href="contact.html" class="list-group-item">Contact us</a>
+                    <a href="contact.html" class="list-group-item active panel-red">Contact us</a>
                 </div>
            </div>
         </div>  
