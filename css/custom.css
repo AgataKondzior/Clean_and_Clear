@@ -105,6 +105,12 @@ li.register a:hover {
     margin-top:15px;
 }
 
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    background-color:  #ff0000;
+    border: #ff0000;
+    color:#666666 !important;
+}
+
 .gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus {
     background-color: #ff0000;
     border: #8c8c8c;
