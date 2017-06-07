@@ -105,7 +105,7 @@ li.register a:hover {
     margin-top:15px;
 }
 
-.gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus {
+.gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus, .list-group-item-text {
     background-color: #ff0000;
     border: #8c8c8c;
     color:#666666;
