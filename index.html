@@ -15,6 +15,12 @@
 
         <!-- Bootstrap main javascript -->
         <script src="js/bootstrap.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+              $('#tooltip1').tooltip('hide');
+              $('#tooltip2').tooltip('hide');
+            });</script>
     </head>
     <body>
          <nav class="navbar navbar-default navbar-fixed-top">
@@ -79,7 +85,7 @@
         <div class="bluebox">
            <h3><span class="glyphicon glyphicon-book" aria-hidden="true"> Learn...</span></h3>   
             <div class="caption">
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>Sed ut perspiciatis <a href="#" id='tooltip1' data-toggle="tooltip" title="First tooltip">unde omnis iste natus</a> error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                <p><a href="#" class="btn btn-primary" role="button">Read more...</a></p>
             </div>
         </div>
@@ -89,7 +95,7 @@
       <div class="redbox">
           <h3><span class="glyphicon glyphicon-eye-open" aria-hidden="true"> Create...</span></h3>
             <div class="caption">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut deserunt mollit aliquip.</p>
+                <p>Lorem ipsum dolor sit amet, <a href="#" id='tooltip2' data-toggle="tooltip" title="Second tooltip">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut deserunt mollit aliquip.</p>
                <p><a href="#" class="btn btn-primary" role="button">Read more...</a> </p>
             </div>
       </div>
@@ -151,7 +157,6 @@
       </div>
      </div>  
  
- 
     <div class='col-md-4'>
         <div class="list-group">
             <a href="#" class="list-group-item active panel-red">
@@ -162,9 +167,8 @@
             <a href="#" class="list-group-item">Blog</a>
             <a href="#" class="list-group-item">Contact us</a>
         </div>
-   
-     
-        <div class="gray-list list-group">
+    
+                 <div class="gray-list list-group">
             <a href="#" class="list-group-item active">
                 <h4 class="list-group-item-heading">List group item heading</h4>
                 <p class="list-group-item-text">Eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
@@ -181,6 +185,7 @@
                 <h4 class="list-group-item-heading">List group item heading</h4>
                 <p class="list-group-item-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, magnam aliquam quaerat voluptatem.</p>
             </a>
+                     
         </div>
      </div>
 </div>
