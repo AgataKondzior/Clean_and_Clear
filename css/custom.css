@@ -124,6 +124,10 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     color: #666666;
 }
 
+a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .list-group-item-text, a.list-group-item.active:focus .list-group-item-text{
+color: #666666;
+}
+
 footer {
     height: 40px;
     text-align: center;
