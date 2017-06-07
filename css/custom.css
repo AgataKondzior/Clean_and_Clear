@@ -110,7 +110,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     border: #ff0000;
 }
 
-.gray-list a.list-group-item.active, gray-list a.list-group-item.active:hover, gray-list a.list-group-item.active:focus {
+.gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus {
     background-color: #c0c0c0 !important;
     border: #8c8c8c;
     color:#666666;
