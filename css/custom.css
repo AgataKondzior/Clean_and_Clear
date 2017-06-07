@@ -112,7 +112,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 }
 
 .gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus {
-    background-color: #666666;
+    background-color:  #8c8c8c;
     border: #8c8c8c;
     color: #666666;
 }
