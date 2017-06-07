@@ -106,7 +106,7 @@ li.register a:hover {
 }
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-    background-color: #8c8c8c;
+    background-color: #a6a6a6;
     border: #ff0000;
     color:#666666;
 }
@@ -120,6 +120,8 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 .gray-list a.list-group-item.active .list-group-item-text, .gray-list a.list-group-item.active:hover .list-group-item-text, .gray-list a.list-group-item.active:focus .list-group-item-text{
     color: #666666;
 }
+
+/*.gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus*/
 
 footer {
     height: 40px;
