@@ -110,9 +110,8 @@ li.register a:hover {
 }
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-    background-color: #ff0000;
+    background-color:  #ff0000;
     border: #ff0000;
-    color: #666666;
 }
 
 .gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus {
@@ -121,9 +120,6 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     color: #666666;
 }
 
-.gray-list a.list-group-item.active .list-group-item-text, .gray-list a.list-group-item.active:hover .list-group-item-text, .gray-list a.list-group-item.active:focus .list-group-item-text{
-    color: #666666;
-}
 
 footer {
     height: 40px;
