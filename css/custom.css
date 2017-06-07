@@ -121,8 +121,6 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     color: #666666;
 }
 
-/*.gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus*/
-
 footer {
     height: 40px;
     text-align: center;
@@ -130,4 +128,10 @@ footer {
     color:white;
     margin-top: 40px;
     padding:10px 0 10px 0;
+}
+
+/*about.html Css*/
+
+.container {
+    margin-bottom: 45px;
 }
