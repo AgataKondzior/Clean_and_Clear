@@ -107,8 +107,8 @@ li.register a:hover {
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
     background-color:  #ff0000;
-    color:#666666;
     border: #ff0000;
+    color:#666666;
 }
 
 .gray-list a.list-group-item.active, .gray-list a.list-group-item.active:hover, .gray-list a.list-group-item.active:focus {
