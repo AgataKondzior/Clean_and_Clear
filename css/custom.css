@@ -196,3 +196,7 @@ footer {
 #tooltip1:hover, #tooltip2:hover {
     text-decoration: : none;
 }
+
+.tab-pane {
+    padding-top: 10px;
+}
