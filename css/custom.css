@@ -92,9 +92,14 @@ li.register a:hover {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 5px;
+   
 }
 
-.panel > .panel-heading {
+.panel a:hover{
+    text-decoration: none;
+}
+
+.panel > .panel-blue-heading {
     background-color: #008ae6; 
     color: white;
 }
@@ -199,4 +204,14 @@ footer {
 
 .tab-pane {
     padding-top: 10px;
+}
+
+#accordion {
+    margin-left: -20px;
+    width: 385px;
+}
+
+.list-group {
+    margin-left: 0;
+    width: 360px;
 }
