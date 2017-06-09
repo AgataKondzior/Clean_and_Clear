@@ -27,7 +27,7 @@ li.register a:hover {
 
 .jumbotron {
     background: url(../images/waterdrop.jpg) no-repeat 50% 0;
-    padding:0;
+    padding:10px;
     height:350px;
     color: white;
     margin-top:45px;
