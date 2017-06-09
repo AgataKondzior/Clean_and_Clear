@@ -145,6 +145,11 @@ iframe {
     padding: 4px;
 }
 
+.container-fluid .blog {
+    margin-top:30px;
+}
+
+
 .blog h5 {
     background-color:#e6e6e6;
     width:100%;
