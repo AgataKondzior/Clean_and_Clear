@@ -145,7 +145,7 @@ iframe {
     padding: 4px;
 }
 
-.container-fluid .blog {
+.container .blog {
     margin-top:30px;
 }
 
@@ -211,7 +211,7 @@ footer {
     padding-top: 10px;
 }
 
-/*#accordion {
+accordion {
     margin-left: -20px;
     width: 385px;
 }
@@ -219,4 +219,4 @@ footer {
 .list-group {
     margin-left: 0;
     width: 360px;
-}*/
+}
