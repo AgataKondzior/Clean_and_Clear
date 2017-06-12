@@ -54,6 +54,7 @@ li.register a:hover {
 
 .bluebox {
     background-color: #008ae6;
+    color: white
     }
 
 .bluebox a {
@@ -68,7 +69,8 @@ li.register a:hover {
 
 
 .redbox {
-    background-color:  #ff0000;    
+    background-color:  #ff0000; 
+    color: white;
 }
 
 .redbox a {
@@ -86,10 +88,6 @@ li.register a:hover {
     margin-top: 30px;
     /*margin-left: 20px;
     margin-right: 5px;*/  
-}
-
-.panel-body {
-    color: white;   
 }
 
 .panel a:hover{
