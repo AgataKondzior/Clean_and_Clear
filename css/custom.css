@@ -52,12 +52,17 @@ li.register a:hover {
     font-size: 45px;
 }
 
-.thumbnails {
+/*.thumbnails {
     margin-top: 30px;
     color: white;
 }
 .thumbnails p {
     margin: 0 10px 10px 10px;
+}*/
+
+.panel-body h3 {
+    font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 .bluebox {
