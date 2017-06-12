@@ -96,9 +96,9 @@ li.register a:hover {
     text-decoration: none;
 }
 
-.panel-blue {
+/*.panel-blue {
     width: 100%;        
-}
+}*/
 
 .panel > .panel-blue-heading {
     background-color: #008ae6; 
